@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+@import url('https://fonts.googleapis.com/css2?family=Manjari:wght@100&display=swap');
+
+html, body {
+  	height: 100%;
+  	width: 100%;
+  	font-family: 'Poppins', sans-serif;
+  	color: #F3F3F3;
+  	background-color: #2F2F2F;
+  	scroll-behavior: smooth;
+}
+h1{
+	text-shadow: 1px 1px 15px #000;
+}
+p{
+	font-family:  'Manjari', sans-serif;
+	font-size: 1.5em;
+}
+.padding{
+	padding: 1rem;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+.title{
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+#intro, #skills{
+	background-size: 60%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#intro{
+	background-image: url('introBG.svg');
+}
+#skills{
+	background-image: url('skillBG.svg');
+}
+#intro-inner{
+	background-color: black;
+	opacity: 60%;
+}
+
+.cover {
+	background-image: url('BlackCloseFace.png');
+	background-size: 95vh;
+	background-repeat: no-repeat;
+	background-position: left;
+	bottom: 0;
+}
+
+nav {
+  background-color: #000;
+  display: block;
+  padding: 1em 0;
+  text-align: center;
+  width: 100%;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 1em;
+  text-decoration: none;
+}
+:target:before {
+    content: "";
+    display: block;
+    height: 60px;
+}
